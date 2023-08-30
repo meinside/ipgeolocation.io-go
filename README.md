@@ -23,6 +23,12 @@ func main() {
 }
 ```
 
+## Test
+
+```bash
+$ API_KEY=xxxxxxxxxxxxxxxxxx go test
+```
+
 ## Todos
 
 - [ ] Implement [Timezone API](https://ipgeolocation.io/documentation/timezone-api.html) functions.
