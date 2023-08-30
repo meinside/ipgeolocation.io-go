@@ -66,7 +66,7 @@ type ResponseGeolocation struct {
 	CountryTLD     string `json:"country_tld"`
 	Languages      string `json:"languages"`
 	CountryFlag    string `json:"country_flag"`
-	GeonameID      int64  `json:"geoname_id"`
+	GeonameID      string `json:"geoname_id"`
 	ISP            string `json:"isp"`
 	ConnectionType string `json:"connection_type"`
 	Organization   string `json:"organization"`
